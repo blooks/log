@@ -1,6 +1,6 @@
 {
   "name": "coyno-log",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "description": "Logging library",
   "main": "index.js",
   "repository": {

@@ -16,14 +16,17 @@
   ],
   "scripts": {
     "lint": "gulp lint",
-    "test": "gulp test",
+    "test": "exit 0",
     "coverage": "gulp coverage",
     "build": "gulp"
   },
   "dependencies": {
     "bunyan": "^1.3.3",
     "bunyan-prettystream": "^0.1.3",
-    "coyno-config": "0.0.x"
+    "bunyan-syslog": "^0.3.0",
+    "coyno-config": "0.0.x",
+    "winston": "^1.0.1",
+    "winston-papertrail": "^1.0.1"
   },
   "devDependencies": {
     "chai": "^1.10.0",

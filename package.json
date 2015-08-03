@@ -10,36 +10,15 @@
   "author": "Coyno <coyno@coyno.com>",
   "contributors": [
     {
-      "name": "Leopoldo Godines",
-      "email": "lg@leopoldogodines.com"
+      "name": "Levin Keller"
+      "email": "levin@coyno.com"
     }
   ],
   "scripts": {
-    "lint": "gulp lint",
-    "test": "exit 0",
-    "coverage": "gulp coverage",
-    "build": "gulp"
+    "test": "exit 0"
   },
   "dependencies": {
-    "bunyan": "^1.3.3",
-    "bunyan-prettystream": "^0.1.3",
-    "bunyan-syslog": "^0.3.0",
-    "coyno-config": "0.0.x",
     "winston": "^1.0.1",
     "winston-papertrail": "^1.0.1"
-  },
-  "devDependencies": {
-    "chai": "^1.10.0",
-    "gulp": "^3.8.10",
-    "gulp-jshint": "^1.9.0",
-    "gulp-mocha": "^2.0.0",
-    "gulp-shell": "^0.2.11",
-    "gulp-util": "^3.0.2",
-    "istanbul": "^0.3.5",
-    "jsdoc": "^3.3.0-alpha13",
-    "jsdoc-to-markdown": "^0.5.9",
-    "mocha": "^2.1.0",
-    "more-fs": "^0.5.0",
-    "through2": "^0.6.3"
   }
 }

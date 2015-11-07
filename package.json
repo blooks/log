@@ -15,10 +15,13 @@
     }
   ],
   "scripts": {
-    "test": "exit 0"
+    "test": "mocha test"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.3"
   },
   "dependencies": {
-    "winston": "^1.0.1",
-    "winston-papertrail": "^1.0.1"
+    "bunyan": "^1.5.1",
+    "bunyan-prettystream": "^0.1.3"
   }
 }

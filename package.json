@@ -1,11 +1,11 @@
 {
-  "name": "coyno-log",
+  "name": "blooks-log",
   "version": "0.1.1",
   "description": "Logging library",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "http://github.com/coyno/coyno-log.git"
+    "url": "http://github.com/blooks/blooks-log.git"
   },
   "author": "Coyno <coyno@coyno.com>",
   "contributors": [

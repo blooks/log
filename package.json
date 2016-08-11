@@ -20,5 +20,6 @@
   "dependencies": {
     "winston": "^1.0.1",
     "winston-papertrail": "^1.0.1"
-  }
+  },
+  "license": "Apache-2.0"
 }

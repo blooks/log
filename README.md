@@ -1,4 +1,4 @@
-coyno-log
+@blooks/log
 =======
 
 Logging library.

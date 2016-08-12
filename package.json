@@ -21,8 +21,12 @@
     },
     "extends": "standard"
   },
+  "standard": {
+    "env": ["mocha"]
+  },
   "scripts": {
-    "test": "mocha test"
+    "test": "mocha test",
+    "lint": "./node-modules/standard/bin/cmd.js"
   },
   "dependencies": {
     "bunyan": "^1.8.1"

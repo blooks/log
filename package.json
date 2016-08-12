@@ -26,6 +26,9 @@
       "mocha"
     ]
   },
+  "engines": {
+    "node": "^6"
+  },
   "scripts": {
     "test": "mocha test"
   },

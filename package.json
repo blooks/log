@@ -14,12 +14,23 @@
       "email": "levin@coyno.com"
     }
   ],
+  "eslintConfig": {
+    "env": {
+      "mocha": true,
+      "node": true
+    },
+    "extends": "standard"
+  },
   "scripts": {
-    "test": "exit 0"
+    "test": "mocha test"
   },
   "dependencies": {
-    "winston": "^1.0.1",
-    "winston-papertrail": "^1.0.1"
+    "bunyan": "^1.8.1"
   },
-  "license": "Apache-2.0"
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "eslint": "^3.2.2",
+    "mocha": "^3.0.2",
+    "standard": "^7.1.2"
+  }
 }

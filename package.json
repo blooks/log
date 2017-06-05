@@ -1,6 +1,6 @@
 {
   "name": "@blooks/log",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "description": "Logging library",
   "main": "index.js",
   "repository": {

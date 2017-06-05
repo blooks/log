@@ -1,14 +1,14 @@
-var log = require('../index.js');
+'use strict'
 
-describe('Logging tests', function() {
-  describe('Simple tests', function () {
-    it('should log all levels', function (done) {
-      log.error('Error');
-      log.info('Info');
-      log.debug('Debug');
-      log.warn('Warn');
-      log.trace('Trace');
-      done();
-    });
-  });
-});
+var log = require('../index')
+
+describe('Logging test', () => {
+  it('should log something', (done) => {
+    log.info('Something')
+    done()
+  })
+  it('should log something as a child', (done) => {
+    log.child({component: 'someone'}).info('Something')
+    done()
+  })
+})

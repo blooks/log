@@ -1,6 +1,6 @@
 {
-  "name": "blooks-log",
-  "version": "0.1.1",
+  "name": "@blooks/log",
+  "version": "0.2.4",
   "description": "Logging library",
   "main": "index.js",
   "repository": {
@@ -14,14 +14,31 @@
       "email": "levin@coyno.com"
     }
   ],
+  "eslintConfig": {
+    "env": {
+      "mocha": true,
+      "node": true
+    },
+    "extends": "standard"
+  },
+  "standard": {
+    "env": [
+      "mocha"
+    ]
+  },
+  "engines": {
+    "node": ">=6"
+  },
   "scripts": {
     "test": "mocha test"
   },
-  "devDependencies": {
-    "mocha": "^2.3.3"
-  },
   "dependencies": {
-    "bunyan": "^1.5.1",
-    "bunyan-prettystream": "^0.1.3"
+    "bunyan": "^1.8.1"
+  },
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "eslint": "^3.2.2",
+    "mocha": "^3.0.2",
+    "standard": "^7.1.2"
   }
 }

@@ -1,15 +1,10 @@
-dependencies:
-  override:
-    - echo "registry="$NPM_REGISTRY >> .npmrc
-    - echo "_auth="$NPM_AUTH_TOKEN >> .npmrc
-    - echo "email="NPM_EMAIL >> .npmrc
-    - echo "always-auth=true" >> .npmrc
-    - echo "strict-ssl=false" >> .npmrc
-    - npm install
+machine:
+  node:
+    version: 6
 
 deployment:
-  production:
-    branch: master
+  versionbuild:
+    tag: /v[0-9]+(\.[0-9]+)*/
     commands:
-    - npm publish
-
+      - mv file.npmrc .npmrc
+      - npm publish --access=public
